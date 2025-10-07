@@ -49,7 +49,7 @@ public class Main {
             punkte = würfel1*10 +würfel2; //
         }else if(würfel1 == würfel2) {
             punkte = würfel1*50;
-        }else if (würfel1 == 1 || würfel2 == 1 || würfel1 == 2|| würfel2 == 2){
+        }else if (würfel1 == 1 || würfel2 == 2 || würfel1 == 2|| würfel2 == 1){
             punkte = 350;
         }
         else
